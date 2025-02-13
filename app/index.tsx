@@ -11,7 +11,7 @@ import {
 import Feather from "@expo/vector-icons/Feather";
 
 export default function Home() {
-  const [text, setText] = useState("");
+  const [text, setText] = useState("test");
 
   const AppBackground = "../assets/images/bg.jpg";
   const weatherIcon = "../assets/images/weather/party-cloudy.png";
