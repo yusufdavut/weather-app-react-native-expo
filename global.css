@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.search-input-calc-width {
+  width: calc(100% - 44px);
+}
